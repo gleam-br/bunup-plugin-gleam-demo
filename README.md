@@ -28,10 +28,34 @@ bunx @bunup/cli@latest create
 5. Description -> `Demo: Bunup ...`
 6. GitHub repository -> `gleam-br/bunup-plugin-gleam-demo`
 
-Gleam new:
+Add plugin:
 
 ```sh
 cd bunup-plugin-gleam-demo
+bun add --dev bun-plugin-gleam
+```
+
+Bunup config [bunup.config.ts](./bunup.config.ts):
+
+```ts
+import { defineConfig } from "bunup";
+import { unused } from 'bunup/plugins';
+
+import bunPluginGleam from "bun-plugin-gleam";
+
+export default defineConfig({
+  entry: ["src/index.ts"],
+  target: "node",
+  format: ["esm"],
+  sourcemap: "linked",
+  minify: true,
+  plugins: [bunPluginGleam({ bunup: true }), unused()]
+});
+```
+
+Gleam new:
+
+```sh
 gleam new bunup_plugin_gleam_demo --skip-git --skip-github --template javascript .
 ```
 
@@ -59,6 +83,11 @@ Testing
 node ./dist/index.js
 $ Hello from bunup_plugin_gleam_demo!
 ```
+
+## ✅ Plugins
+
+- [bun-plugin-gleam](https://github.com/gleam-br/bun-plugin-gleam)
+- [vite-plugin-gleam](https://github.com/gleam-br/vite-plugin-gleam)
 
 ## 🧪 Demo
 
