@@ -1,4 +1,4 @@
-import { defineConfig, defineWorkspace } from "bunup";
+import { defineConfig } from "bunup";
 import { unused } from 'bunup/plugins';
 
 import bunPluginGleam from "bun-plugin-gleam";
