@@ -81,7 +81,7 @@ Testing
 
 ```sh
 node ./dist/index.js
-$ Hello from bunup_plugin_gleam_demo!
+# Hello from bunup_plugin_gleam_demo!
 ```
 
 ## ✅ Plugins
@@ -92,3 +92,4 @@ $ Hello from bunup_plugin_gleam_demo!
 ## 🧪 Demo
 
 - [vite-plugin-gleam-demo](https://github.com/gleam-br/vite-plugin-gleam-demo)
+- [vite-ts-plugin-gleam-demo](https://github.com/gleam-br/vite-ts-plugin-gleam-demo)
