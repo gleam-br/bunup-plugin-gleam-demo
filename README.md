@@ -35,7 +35,7 @@ cd bunup-plugin-gleam-demo
 gleam new bunup_plugin_gleam_demo --skip-git --skip-github --template javascript .
 ```
 
-Glema build:
+Gleam build:
 
 ```sh
 gleam build --target javascript --warnings-as-errors
@@ -59,3 +59,7 @@ Testing
 node ./dist/index.js
 $ Hello from bunup_plugin_gleam_demo!
 ```
+
+## 🧪 Demo
+
+- [vite-plugin-gleam-demo](https://github.com/gleam-br/vite-plugin-gleam-demo)
