@@ -1,6 +1,7 @@
 # 🎓 Demo: Bun bunup plugin to gleam
 
 - [ ] Bug typescript declarations
+<img width="572" height="87" alt="image" src="https://github.com/user-attachments/assets/40f92b30-7337-4e3a-b9a4-fd10d1e172ef" />
 
 Gleam build:
 
