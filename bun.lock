@@ -1,11 +1,12 @@
 {
   "lockfileVersion": 1,
+  "configVersion": 0,
   "workspaces": {
     "": {
       "name": "bunup-plugin-gleam-demo",
       "devDependencies": {
         "@types/bun": "^1.3.2",
-        "bun-plugin-gleam": "^0.1.0",
+        "bun-plugin-gleam": "../../bun-plugin-gleam",
         "bunup": "^0.15.14",
         "typescript": "^5.9.3",
       },
@@ -144,7 +145,7 @@
 
     "@types/react": ["@types/react@19.2.3", "", { "dependencies": { "csstype": "^3.0.2" } }, "sha512-k5dJVszUiNr1DSe8Cs+knKR6IrqhqdhpUwzqhkS8ecQTSf3THNtbfIp/umqHMpX2bv+9dkx3fwDv/86LcSfvSg=="],
 
-    "bun-plugin-gleam": ["bun-plugin-gleam@0.1.0", "", { "dependencies": { "core-plugin-gleam": "^0.1.0" }, "peerDependencies": { "typescript": ">=4.5.0" }, "optionalPeers": ["typescript"] }, "sha512-W9T8HOojfVT2x9pB/N2B69y2Lz0ea9CX9lfCnt4Bhu/L0kjDRCOwhSnjnPKmBBknXxcmmdrIlv+vvNyagGXk3w=="],
+    "bun-plugin-gleam": ["bun-plugin-gleam@file:../../bun-plugin-gleam", { "devDependencies": { "@types/bun": "^1.3.2", "bunup": "^0.15.14", "typescript": "^5.9.3" }, "peerDependencies": { "typescript": ">=4.5.0" }, "optionalPeers": ["typescript"] }],
 
     "bun-types": ["bun-types@1.3.2", "", { "dependencies": { "@types/node": "*" }, "peerDependencies": { "@types/react": "^19" } }, "sha512-i/Gln4tbzKNuxP70OWhJRZz1MRfvqExowP7U6JKoI8cntFrtxg7RJK3jvz7wQW54UuvNC8tbKHHri5fy74FVqg=="],
 
@@ -153,8 +154,6 @@
     "chokidar": ["chokidar@4.0.3", "", { "dependencies": { "readdirp": "^4.0.1" } }, "sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA=="],
 
     "coffi": ["coffi@0.1.37", "", { "dependencies": { "strip-json-comments": "^5.0.3" } }, "sha512-ewO5Xis7sw7g54yI/3lJ/nNV90Er4ZnENeDORZjrs58T70MmwKFLZgevraNCz+RmB4KDKsYT1ui1wDB36iPWqQ=="],
-
-    "core-plugin-gleam": ["core-plugin-gleam@0.1.0", "", {}, "sha512-nyZSFCmFul2EwMnm5jtyO4DtaZX1qLzaTlhvpNdIOvPpbQck3vtV6Nw3ToVD6Q7hr4w6MW2LvzW/TEg7HYNgUQ=="],
 
     "csstype": ["csstype@3.1.3", "", {}, "sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw=="],
 

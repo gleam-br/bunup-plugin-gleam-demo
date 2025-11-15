@@ -1,5 +1,7 @@
 # 🎓 Demo: Bun bunup plugin to gleam
 
+- [ ] Bug typescript declarations
+
 Gleam build:
 
 ```sh
