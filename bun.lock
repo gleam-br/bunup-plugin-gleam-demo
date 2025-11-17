@@ -6,7 +6,7 @@
       "name": "bunup-plugin-gleam-demo",
       "devDependencies": {
         "@types/bun": "^1.3.2",
-        "bun-plugin-gleam": "^0.1.1",
+        "bun-plugin-gleam": "^0.1.3",
         "bunup": "^0.15.14",
         "typescript": "^5.9.3",
       },
@@ -145,7 +145,7 @@
 
     "@types/react": ["@types/react@19.2.3", "", { "dependencies": { "csstype": "^3.0.2" } }, "sha512-k5dJVszUiNr1DSe8Cs+knKR6IrqhqdhpUwzqhkS8ecQTSf3THNtbfIp/umqHMpX2bv+9dkx3fwDv/86LcSfvSg=="],
 
-    "bun-plugin-gleam": ["bun-plugin-gleam@0.1.1", "", { "peerDependencies": { "typescript": ">=4.5.0" }, "optionalPeers": ["typescript"] }, "sha512-AGtF1STatKoOxSemdGxDCHfgLKkZjXCeBuTeHW1iwgZrqZ+p9Xz/BIfPO5HNFgkpaF2i71C81iN+7NLvSOjd/g=="],
+    "bun-plugin-gleam": ["bun-plugin-gleam@0.1.3", "", { "peerDependencies": { "typescript": ">=4.5.0" }, "optionalPeers": ["typescript"] }, "sha512-srMp9YlydkAntkei9mfnbLUS1nnTW05yGMZThElewc49IrP09u4IpNaZebgXDQONuQX2Dq5KAitHNQnYPgDNpA=="],
 
     "bun-types": ["bun-types@1.3.2", "", { "dependencies": { "@types/node": "*" }, "peerDependencies": { "@types/react": "^19" } }, "sha512-i/Gln4tbzKNuxP70OWhJRZz1MRfvqExowP7U6JKoI8cntFrtxg7RJK3jvz7wQW54UuvNC8tbKHHri5fy74FVqg=="],
 
